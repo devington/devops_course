@@ -24,4 +24,11 @@ stages:
       displayName: 'Running Unit test'
       steps:
       - script: echo 'Running web demo unit test'
+  - stage: 'Munit'
+    displayName: 'Munit Stage'
+    jobs:
+    - job: 'Munittest'
+      displayName: 'Running Unit test'
+      steps:
+      - script: echo 'Running web demo unit test'
       
